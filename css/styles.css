@@ -200,7 +200,7 @@ header nav .logo {
 }
 
 .feature {
-  width: calc((100% - 72px) / 4);
+  width: calc((100%-72px) / 4);
 }
 
 .about {
@@ -327,5 +327,4 @@ footer a {
   padding: 32px 16px;
   border: 1px solid var(--subtle-background-color);
   border-top: none;
-  
 }
