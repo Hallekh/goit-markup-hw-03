@@ -25,6 +25,10 @@ a {
   color: var(--text-color);
 }
 
+img {
+  display: block;
+}
+
 .logo-accent {
   color: var(--hero-background-color);
 }
@@ -46,10 +50,32 @@ header nav .logo {
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-right: 76px;
+}
+
+.header {
+  border-bottom: 1px solid var(--subtle-background-color);
+}
+
+.nav-container {
+  display: flex;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
 }
 
 .list {
   list-style: none;
+  display: flex;
+  gap: 40px;
 }
 
 .link {
@@ -61,6 +87,7 @@ header nav .logo {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .link-nav:hover,
@@ -71,6 +98,8 @@ header nav .logo {
 .contacts {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: flex;
+  gap: 40px;
 }
 
 .contacts:hover,
