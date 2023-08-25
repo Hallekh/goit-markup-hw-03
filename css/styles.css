@@ -153,11 +153,15 @@ header nav .logo {
   color: var(--active-states-color);
   background-color: var(--light-background-color);
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid var(--subtle-background-color);
+  border-radius: 4px;
 }
 .btn-secondary:hover,
 .btn-secondary:focus {
   background-color: var(--pressed-state-color);
   color: var(--white-background-color);
+  border: 1px solid transparent;
 }
 
 .features {
@@ -296,4 +300,32 @@ footer a {
   letter-spacing: 0.02em;
   color: var(--light-background-color);
   max-width: 264px;
+}
+
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.btn-list {
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+.portfolio-list {
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-card {
+  width: calc((100% - 48px) / 3);
+}
+
+.portfolio-data {
+  padding: 32px 16px;
+  border: 1px solid var(--subtle-background-color);
+  border-top: none;
+  
 }
