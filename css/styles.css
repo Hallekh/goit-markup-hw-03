@@ -272,6 +272,7 @@ header nav .logo {
 
 .foo {
   background-color: var(--dark-color);
+  padding: 100px 0;
 }
 
 footer a {
@@ -282,6 +283,8 @@ footer a {
   letter-spacing: 0.03em;
   color: var(--active-states-color);
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .accent {
@@ -292,4 +295,5 @@ footer a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-background-color);
+  max-width: 264px;
 }
