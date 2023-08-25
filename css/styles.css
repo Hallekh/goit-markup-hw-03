@@ -199,6 +199,10 @@ header nav .logo {
   width: calc((100% - 72px) / 4);
 }
 
+.about {
+  padding-bottom: 120px;
+}
+
 .about-title {
   font-size: 36px;
   line-height: 1.11;
@@ -206,6 +210,15 @@ header nav .logo {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-color);
+  margin-bottom: 72px;
+}
+
+.about-list{
+  gap: 24px;
+}
+
+.about-card {
+  width: calc((100% - 48px) / 3);
 }
 
 .cards {
