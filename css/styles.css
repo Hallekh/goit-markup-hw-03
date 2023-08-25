@@ -213,7 +213,7 @@ header nav .logo {
   margin-bottom: 72px;
 }
 
-.about-list{
+.about-list {
   gap: 24px;
 }
 
@@ -223,6 +223,7 @@ header nav .logo {
 
 .cards {
   background-color: var(--light-background-color);
+  padding: 120px 0;
 }
 
 .team-title {
@@ -232,10 +233,21 @@ header nav .logo {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-color);
+  margin-bottom: 72px;
+}
+
+.team-list {
+  gap: 24px;
 }
 
 .card {
   background-color: var(--white-background-color);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.card-data {
+  padding: 32px 0;
 }
 
 .card-title {
@@ -244,11 +256,14 @@ header nav .logo {
   font-weight: 500;
   letter-spacing: 0.4px;
   line-height: 1.2;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .card-text {
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .team {
