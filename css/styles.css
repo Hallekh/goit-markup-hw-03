@@ -293,8 +293,13 @@ header nav .logo {
   letter-spacing: 0.02em;
 }
 
+.team-name {
+  text-align: center;
+}
+
 .team {
   line-height: 1.5;
+  text-align: center;
 }
 
 .foo {
