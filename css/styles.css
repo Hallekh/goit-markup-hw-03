@@ -77,6 +77,7 @@ header nav .logo {
 
 .nav-container {
   display: flex;
+  align-items: center;
 }
 
 .container {
@@ -104,6 +105,7 @@ header nav .logo {
 }
 
 .link-nav {
+  display: block;
   color: var(--dark-color);
   font-weight: 500;
   line-height: 1.5;
@@ -142,6 +144,7 @@ header nav .logo {
   max-width: 496px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 48px;
 }
 
 .btn {
